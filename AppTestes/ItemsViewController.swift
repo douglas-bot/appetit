@@ -32,7 +32,6 @@ extension ItemsViewController {
     }
 }
 
-
 extension ItemsViewController {
     func fetchItems(){
         collectionView.isHidden = true
@@ -56,8 +55,13 @@ extension ItemsViewController {
 
 extension ItemsViewController: ItemsDelegate {
     func didSelectedItem(at index: IndexPath) {
-        guard let nextController = Storyboard.Main.
+        guard let nextController = Storyboard.Main.itemViewControllerScene
+            .viewController() as? ItemViewController else {
+                return
+        }
+        
+        let item = items[index.row]
+        nextController.item = item
+        self.navigationController?.pushViewController(nextController, animated: true)
     }
-
-    
 }

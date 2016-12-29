@@ -77,7 +77,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eUj-lr-afv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image_not_found" translatesAutoresizingMaskIntoConstraints="NO" id="eUj-lr-afv">
                                 <rect key="frame" x="59" y="143" width="256" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -131,9 +131,10 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ifx-3h-cIf" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MWa-DP-VNa">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="MWa-DP-VNa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="0.44743246460000002" blue="0.1239753287" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -145,4 +146,7 @@
             <point key="canvasLocation" x="-111" y="139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="image_not_found" width="400" height="359"/>
+    </resources>
 </document>

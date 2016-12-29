@@ -117,7 +117,7 @@
 				EF00191C1E1441BC0082CA7D /* Info.plist */,
 			);
 			name = AppetitTests;
-			path = AppetiTests;
+			path = AppetitTests;
 			sourceTree = "<group>";
 		};
 		EF0019221E1445B00082CA7D /* Models */ = {
@@ -126,6 +126,7 @@
 				EF0019231E1445F00082CA7D /* Item.swift */,
 			);
 			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		EF0019251E1446D10082CA7D /* AppDelegate */ = {
@@ -134,6 +135,7 @@
 				EF2CA8501E142FC600D87C60 /* AppDelegate.swift */,
 			);
 			name = AppDelegate;
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		EF0019261E1446D80082CA7D /* Networking */ = {
@@ -143,6 +145,7 @@
 				EF1359261E145A6800DC6B66 /* AppetitAPIManager.swift */,
 			);
 			name = Networking;
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		EF0019291E144B270082CA7D /* Cells */ = {
@@ -153,6 +156,7 @@
 				EF00192C1E144B6A0082CA7D /* ItemCollectionCell.xib */,
 			);
 			name = Cells;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		EF00192E1E144B6F0082CA7D /* Xibs */ = {
@@ -160,15 +164,17 @@
 			children = (
 			);
 			name = Xibs;
+			path = Xibs;
 			sourceTree = "<group>";
 		};
 		EF1359231E1451C400DC6B66 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				EF1359241E1451DB00DC6B66 /* ItemsViewController.swift */,
 				EF13592E1E153AC400DC6B66 /* ItemViewController.swift */,
+				EF1359241E1451DB00DC6B66 /* ItemsViewController.swift */,
 			);
 			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		EF1359281E145F9C00DC6B66 /* Mocks */ = {
@@ -177,6 +183,7 @@
 				EF1359291E14600000DC6B66 /* items.json */,
 			);
 			name = Mocks;
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		EF13592B1E1535B200DC6B66 /* Helpers */ = {
@@ -185,6 +192,7 @@
 				EF13592C1E1535D700DC6B66 /* MockLoader.swift */,
 			);
 			name = Helpers;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		EF1359301E15863600DC6B66 /* Resources */ = {
@@ -194,16 +202,18 @@
 				EF2CA85C1E142FC600D87C60 /* Info.plist */,
 			);
 			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		EF1359311E15864200DC6B66 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				EF2CA8541E142FC600D87C60 /* Main.storyboard */,
 				EF2CA8591E142FC600D87C60 /* LaunchScreen.storyboard */,
+				EF2CA8541E142FC600D87C60 /* Main.storyboard */,
 				EF1359321E15869800DC6B66 /* Storyboard.swift */,
 			);
 			name = Storyboards;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		EF2CA8441E142FC600D87C60 = {
@@ -211,9 +221,9 @@
 			children = (
 				EF2CA84F1E142FC600D87C60 /* Appetit */,
 				EF0019191E1441BC0082CA7D /* AppetitTests */,
-				EF2CA84E1E142FC600D87C60 /* Products */,
-				71409FE13BCC57EE8785BD64 /* Pods */,
 				79F2C038F3FE85436EBC0B24 /* Frameworks */,
+				71409FE13BCC57EE8785BD64 /* Pods */,
+				EF2CA84E1E142FC600D87C60 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -229,26 +239,27 @@
 		EF2CA84F1E142FC600D87C60 /* Appetit */ = {
 			isa = PBXGroup;
 			children = (
-				EF1359231E1451C400DC6B66 /* Controllers */,
-				EF0019291E144B270082CA7D /* Cells */,
-				EF0019261E1446D80082CA7D /* Networking */,
-				EF1359311E15864200DC6B66 /* Storyboards */,
 				EF0019251E1446D10082CA7D /* AppDelegate */,
-				EF1359301E15863600DC6B66 /* Resources */,
-				EF0019221E1445B00082CA7D /* Models */,
+				EF0019291E144B270082CA7D /* Cells */,
+				EF1359231E1451C400DC6B66 /* Controllers */,
 				EF2CA8621E14302B00D87C60 /* Datasources */,
+				EF0019221E1445B00082CA7D /* Models */,
+				EF0019261E1446D80082CA7D /* Networking */,
+				EF1359301E15863600DC6B66 /* Resources */,
+				EF1359311E15864200DC6B66 /* Storyboards */,
 			);
 			name = Appetit;
-			path = AppTestes;
+			path = Appetit;
 			sourceTree = "<group>";
 		};
 		EF2CA8621E14302B00D87C60 /* Datasources */ = {
 			isa = PBXGroup;
 			children = (
-				EF00192F1E144C660082CA7D /* ItemsCollectionViewDataSource.swift */,
 				EF0019311E144E3F0082CA7D /* ItemCollectionDataSource.swift */,
+				EF00192F1E144C660082CA7D /* ItemsCollectionViewDataSource.swift */,
 			);
 			name = Datasources;
+			path = Datasources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -496,6 +507,7 @@
 				EF2CA8551E142FC600D87C60 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		EF2CA8591E142FC600D87C60 /* LaunchScreen.storyboard */ = {
@@ -504,6 +516,7 @@
 				EF2CA85A1E142FC600D87C60 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -516,7 +529,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = Z46LY5F22G;
-				INFOPLIST_FILE = AppetiTests/Info.plist;
+				INFOPLIST_FILE = AppetitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.douglastaquary.ios.testes.AppetiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,7 +545,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = Z46LY5F22G;
-				INFOPLIST_FILE = AppetiTests/Info.plist;
+				INFOPLIST_FILE = AppetitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.douglastaquary.ios.testes.AppetiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -641,7 +654,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z46LY5F22G;
-				INFOPLIST_FILE = AppTestes/Info.plist;
+				INFOPLIST_FILE = Appetit/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.douglastaquary.ios.testes.AppTestes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -656,7 +669,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z46LY5F22G;
-				INFOPLIST_FILE = AppTestes/Info.plist;
+				INFOPLIST_FILE = Appetit/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.douglastaquary.ios.testes.AppTestes;
 				PRODUCT_NAME = "$(TARGET_NAME)";

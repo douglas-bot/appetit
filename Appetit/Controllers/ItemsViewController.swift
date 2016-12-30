@@ -38,6 +38,7 @@ extension ItemsViewController {
         activityIndicator.startAnimating()
         provider.items { items in
             self.activityIndicator.stopAnimating()
+            self.activityIndicator.isHidden = true
             if let items = items {
                 self.setupCollectionView(with: items)
             }

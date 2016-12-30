@@ -17,12 +17,12 @@ enum AppetitAPI {
 
 
 extension AppetitAPI: TargetType {
-    var baseURL: URL { return URL(string: "https://gist.githubusercontent.com/douglastaquary")! }
-
+    var baseURL: URL { return URL(string: "https://gist.githubusercontent.com/douglastaquary/526a148691d2357f9752203ac6d6fc3f/raw/12af12f693f5f52d2505157770591f8cf8c453c2")! }
+    
     var path: String {
         switch self {
         case .items:
-            return "/526a148691d2357f9752203ac6d6fc3f/raw/4664806b6ab376814a951cd98e92a56f0a7d6e42/items.json"
+            return "/items.json"
         case .item(let itemId):
             return "/v1/items/\(itemId)"
         }

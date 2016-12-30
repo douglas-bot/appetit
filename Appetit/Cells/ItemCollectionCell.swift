@@ -17,7 +17,6 @@ final class ItemCollectionCell: UICollectionViewCell, NibReusable {
     static func size(for parentWidth: CGFloat) -> CGSize {
         let numberOfCells = CGFloat(2)
         let width = parentWidth / numberOfCells
-        
         return CGSize(width: width, height: width)
     }
     

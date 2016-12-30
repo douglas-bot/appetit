@@ -15,7 +15,7 @@ import Moya_ObjectMapper
 extension Response {
     func removeAPIWrappers() -> Response {
         guard let json = try? self.mapJSON() as? Dictionary<String, AnyObject>,
-            let results = json?["data"]?["results"] ?? [],
+            let results = json?["data"]?["foods"] ?? [],
             let newData = try? JSONSerialization.data(withJSONObject: results, options: .prettyPrinted) else {
                 return self
         }

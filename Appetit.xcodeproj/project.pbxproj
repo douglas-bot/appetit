@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		39A9513242F94D9454FADFDA /* Pods_Appetit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D98D89F0C5A221CA2DC168 /* Pods_Appetit.framework */; };
 		8FC9355D91F5233753A264DB /* Pods_AppetitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E01EF2B460BAA0D5DB7B73 /* Pods_AppetitTests.framework */; };
-		EF00191B1E1441BC0082CA7D /* AppetiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF00191A1E1441BC0082CA7D /* AppetiTests.swift */; };
 		EF0019241E1445F00082CA7D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0019231E1445F00082CA7D /* Item.swift */; };
 		EF0019281E14470E0082CA7D /* AppetitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0019271E14470E0082CA7D /* AppetitAPI.swift */; };
 		EF00192B1E144B3E0082CA7D /* ItemCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF00192A1E144B3E0082CA7D /* ItemCollectionCell.swift */; };
@@ -26,6 +25,9 @@
 		EF2CA8561E142FC600D87C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2CA8541E142FC600D87C60 /* Main.storyboard */; };
 		EF2CA8581E142FC600D87C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2CA8571E142FC600D87C60 /* Assets.xcassets */; };
 		EF2CA85B1E142FC600D87C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2CA8591E142FC600D87C60 /* LaunchScreen.storyboard */; };
+		EF6D24961E15A02600BFDB86 /* ItemsDelegateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6D24951E15A02600BFDB86 /* ItemsDelegateSpec.swift */; };
+		EF6D24991E15AEA400BFDB86 /* ApperanceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6D24981E15AEA300BFDB86 /* ApperanceHelper.swift */; };
+		EF6D249B1E15AF2200BFDB86 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6D249A1E15AF2200BFDB86 /* ColorPalette.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +47,6 @@
 		83D8992514F34471C5F5E64E /* Pods-AppetitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppetitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppetitTests/Pods-AppetitTests.release.xcconfig"; sourceTree = "<group>"; };
 		B9D98D89F0C5A221CA2DC168 /* Pods_Appetit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appetit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0019181E1441BC0082CA7D /* AppetitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppetitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF00191A1E1441BC0082CA7D /* AppetiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetiTests.swift; sourceTree = "<group>"; };
 		EF00191C1E1441BC0082CA7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF0019231E1445F00082CA7D /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		EF0019271E14470E0082CA7D /* AppetitAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppetitAPI.swift; sourceTree = "<group>"; };
@@ -65,6 +66,9 @@
 		EF2CA8571E142FC600D87C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF2CA85A1E142FC600D87C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF2CA85C1E142FC600D87C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6D24951E15A02600BFDB86 /* ItemsDelegateSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsDelegateSpec.swift; sourceTree = "<group>"; };
+		EF6D24981E15AEA300BFDB86 /* ApperanceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApperanceHelper.swift; sourceTree = "<group>"; };
+		EF6D249A1E15AF2200BFDB86 /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 		F984F3ED2EB6B4F7624FA24E /* Pods-AppetitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppetitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppetitTests/Pods-AppetitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,12 +115,12 @@
 		EF0019191E1441BC0082CA7D /* AppetitTests */ = {
 			isa = PBXGroup;
 			children = (
+				EF6D24941E15A00700BFDB86 /* Delegates */,
+				EF6D24931E159FEF00BFDB86 /* Controllers */,
 				EF13592B1E1535B200DC6B66 /* Helpers */,
 				EF1359281E145F9C00DC6B66 /* Mocks */,
-				EF00191A1E1441BC0082CA7D /* AppetiTests.swift */,
 				EF00191C1E1441BC0082CA7D /* Info.plist */,
 			);
-			name = AppetitTests;
 			path = AppetitTests;
 			sourceTree = "<group>";
 		};
@@ -125,7 +129,6 @@
 			children = (
 				EF0019231E1445F00082CA7D /* Item.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -134,7 +137,6 @@
 			children = (
 				EF2CA8501E142FC600D87C60 /* AppDelegate.swift */,
 			);
-			name = AppDelegate;
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
@@ -144,7 +146,6 @@
 				EF0019271E14470E0082CA7D /* AppetitAPI.swift */,
 				EF1359261E145A6800DC6B66 /* AppetitAPIManager.swift */,
 			);
-			name = Networking;
 			path = Networking;
 			sourceTree = "<group>";
 		};
@@ -155,7 +156,6 @@
 				EF00192A1E144B3E0082CA7D /* ItemCollectionCell.swift */,
 				EF00192C1E144B6A0082CA7D /* ItemCollectionCell.xib */,
 			);
-			name = Cells;
 			path = Cells;
 			sourceTree = "<group>";
 		};
@@ -163,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = Xibs;
 			path = Xibs;
 			sourceTree = "<group>";
 		};
@@ -173,7 +172,6 @@
 				EF13592E1E153AC400DC6B66 /* ItemViewController.swift */,
 				EF1359241E1451DB00DC6B66 /* ItemsViewController.swift */,
 			);
-			name = Controllers;
 			path = Controllers;
 			sourceTree = "<group>";
 		};
@@ -182,7 +180,6 @@
 			children = (
 				EF1359291E14600000DC6B66 /* items.json */,
 			);
-			name = Mocks;
 			path = Mocks;
 			sourceTree = "<group>";
 		};
@@ -191,7 +188,6 @@
 			children = (
 				EF13592C1E1535D700DC6B66 /* MockLoader.swift */,
 			);
-			name = Helpers;
 			path = Helpers;
 			sourceTree = "<group>";
 		};
@@ -201,7 +197,6 @@
 				EF2CA8571E142FC600D87C60 /* Assets.xcassets */,
 				EF2CA85C1E142FC600D87C60 /* Info.plist */,
 			);
-			name = Resources;
 			path = Resources;
 			sourceTree = "<group>";
 		};
@@ -212,7 +207,6 @@
 				EF2CA8541E142FC600D87C60 /* Main.storyboard */,
 				EF1359321E15869800DC6B66 /* Storyboard.swift */,
 			);
-			name = Storyboards;
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
@@ -239,6 +233,7 @@
 		EF2CA84F1E142FC600D87C60 /* Appetit */ = {
 			isa = PBXGroup;
 			children = (
+				EF6D24971E15AE7E00BFDB86 /* Apperance */,
 				EF0019251E1446D10082CA7D /* AppDelegate */,
 				EF0019291E144B270082CA7D /* Cells */,
 				EF1359231E1451C400DC6B66 /* Controllers */,
@@ -248,7 +243,6 @@
 				EF1359301E15863600DC6B66 /* Resources */,
 				EF1359311E15864200DC6B66 /* Storyboards */,
 			);
-			name = Appetit;
 			path = Appetit;
 			sourceTree = "<group>";
 		};
@@ -258,8 +252,31 @@
 				EF0019311E144E3F0082CA7D /* ItemCollectionDataSource.swift */,
 				EF00192F1E144C660082CA7D /* ItemsCollectionViewDataSource.swift */,
 			);
-			name = Datasources;
 			path = Datasources;
+			sourceTree = "<group>";
+		};
+		EF6D24931E159FEF00BFDB86 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EF6D24941E15A00700BFDB86 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				EF6D24951E15A02600BFDB86 /* ItemsDelegateSpec.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		EF6D24971E15AE7E00BFDB86 /* Apperance */ = {
+			isa = PBXGroup;
+			children = (
+				EF6D24981E15AEA300BFDB86 /* ApperanceHelper.swift */,
+				EF6D249A1E15AF2200BFDB86 /* ColorPalette.swift */,
+			);
+			name = Apperance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -468,7 +485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF00191B1E1441BC0082CA7D /* AppetiTests.swift in Sources */,
+				EF6D24961E15A02600BFDB86 /* ItemsDelegateSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,8 +502,10 @@
 				EF00192B1E144B3E0082CA7D /* ItemCollectionCell.swift in Sources */,
 				EF13592D1E1535D700DC6B66 /* MockLoader.swift in Sources */,
 				EF1359251E1451DB00DC6B66 /* ItemsViewController.swift in Sources */,
+				EF6D249B1E15AF2200BFDB86 /* ColorPalette.swift in Sources */,
 				EF0019241E1445F00082CA7D /* Item.swift in Sources */,
 				EF2CA8511E142FC600D87C60 /* AppDelegate.swift in Sources */,
+				EF6D24991E15AEA400BFDB86 /* ApperanceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

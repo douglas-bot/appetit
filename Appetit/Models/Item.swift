@@ -12,8 +12,9 @@ import ObjectMapper
 struct Item {
     var id: Int = 0
     var name: String = ""
-    var isAdd: Bool = false
     var price: String = ""
+    var isAdd: Bool = false
+    var image: String = ""
     //var description: String = ""
 }
 
@@ -27,6 +28,7 @@ extension Item: Mappable {
         name <- map["name"]
         isAdd <- map["isAdd"]
         price <- map["price"]
+        image <- map["image"]
         //description <- map["description"]
     }
 }

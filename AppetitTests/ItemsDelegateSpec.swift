@@ -7,8 +7,5 @@
 //
 
 import Foundation
-
-
-class ItemDelegateMock: ItemsDelegate {
-    
-}
+import Quick
+import Nimble

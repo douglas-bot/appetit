@@ -21,6 +21,9 @@
 		EF13592D1E1535D700DC6B66 /* MockLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF13592C1E1535D700DC6B66 /* MockLoader.swift */; };
 		EF13592F1E153AC400DC6B66 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF13592E1E153AC400DC6B66 /* ItemViewController.swift */; };
 		EF1359331E15869800DC6B66 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1359321E15869800DC6B66 /* Storyboard.swift */; };
+		EF18B40C1E16862600BA897B /* FiristSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18B40B1E16862600BA897B /* FiristSpec.swift */; };
+		EF18B40F1E1689FD00BA897B /* ItemSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18B40E1E1689FD00BA897B /* ItemSpec.swift */; };
+		EF18B4111E16982F00BA897B /* ItemsViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18B4101E16982F00BA897B /* ItemsViewControllerSpec.swift */; };
 		EF2CA8511E142FC600D87C60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2CA8501E142FC600D87C60 /* AppDelegate.swift */; };
 		EF2CA8561E142FC600D87C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2CA8541E142FC600D87C60 /* Main.storyboard */; };
 		EF2CA8581E142FC600D87C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2CA8571E142FC600D87C60 /* Assets.xcassets */; };
@@ -60,6 +63,9 @@
 		EF13592C1E1535D700DC6B66 /* MockLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockLoader.swift; sourceTree = "<group>"; };
 		EF13592E1E153AC400DC6B66 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		EF1359321E15869800DC6B66 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		EF18B40B1E16862600BA897B /* FiristSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiristSpec.swift; sourceTree = "<group>"; };
+		EF18B40E1E1689FD00BA897B /* ItemSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemSpec.swift; sourceTree = "<group>"; };
+		EF18B4101E16982F00BA897B /* ItemsViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewControllerSpec.swift; sourceTree = "<group>"; };
 		EF2CA84D1E142FC600D87C60 /* Appetit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF2CA8501E142FC600D87C60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF2CA8551E142FC600D87C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -115,11 +121,13 @@
 		EF0019191E1441BC0082CA7D /* AppetitTests */ = {
 			isa = PBXGroup;
 			children = (
+				EF18B40D1E1689E900BA897B /* Models */,
 				EF6D24941E15A00700BFDB86 /* Delegates */,
 				EF6D24931E159FEF00BFDB86 /* Controllers */,
 				EF13592B1E1535B200DC6B66 /* Helpers */,
 				EF1359281E145F9C00DC6B66 /* Mocks */,
 				EF00191C1E1441BC0082CA7D /* Info.plist */,
+				EF18B40B1E16862600BA897B /* FiristSpec.swift */,
 			);
 			path = AppetitTests;
 			sourceTree = "<group>";
@@ -210,6 +218,14 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		EF18B40D1E1689E900BA897B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF18B40E1E1689FD00BA897B /* ItemSpec.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		EF2CA8441E142FC600D87C60 = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +274,7 @@
 		EF6D24931E159FEF00BFDB86 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				EF18B4101E16982F00BA897B /* ItemsViewControllerSpec.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -485,7 +502,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF18B4111E16982F00BA897B /* ItemsViewControllerSpec.swift in Sources */,
 				EF6D24961E15A02600BFDB86 /* ItemsDelegateSpec.swift in Sources */,
+				EF18B40C1E16862600BA897B /* FiristSpec.swift in Sources */,
+				EF18B40F1E1689FD00BA897B /* ItemSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

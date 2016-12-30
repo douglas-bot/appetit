@@ -31,6 +31,7 @@
 		EF6D24961E15A02600BFDB86 /* ItemsDelegateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6D24951E15A02600BFDB86 /* ItemsDelegateSpec.swift */; };
 		EF6D24991E15AEA400BFDB86 /* ApperanceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6D24981E15AEA300BFDB86 /* ApperanceHelper.swift */; };
 		EF6D249B1E15AF2200BFDB86 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6D249A1E15AF2200BFDB86 /* ColorPalette.swift */; };
+		EFAC50E31E16D8F600BA8B7D /* item.json in Resources */ = {isa = PBXBuildFile; fileRef = EFAC50E21E16D8F600BA8B7D /* item.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		EF6D24951E15A02600BFDB86 /* ItemsDelegateSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsDelegateSpec.swift; sourceTree = "<group>"; };
 		EF6D24981E15AEA300BFDB86 /* ApperanceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApperanceHelper.swift; sourceTree = "<group>"; };
 		EF6D249A1E15AF2200BFDB86 /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		EFAC50E21E16D8F600BA8B7D /* item.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = item.json; sourceTree = "<group>"; };
 		F984F3ED2EB6B4F7624FA24E /* Pods-AppetitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppetitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppetitTests/Pods-AppetitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				EF1359291E14600000DC6B66 /* items.json */,
+				EFAC50E21E16D8F600BA8B7D /* item.json */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFAC50E31E16D8F600BA8B7D /* item.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

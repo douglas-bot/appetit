@@ -19,7 +19,7 @@ class ItemSpec: QuickSpec {
             
             beforeEach {
                 let testBundle = Bundle(for: type(of: self))
-                let mockLoader = MockLoader(file: "items", in: testBundle)
+                let mockLoader = MockLoader(file: "item", in: testBundle)
                 item = mockLoader?.map(to: Item.self)
             }
             

@@ -11,13 +11,18 @@ platform :ios do
 
   desc "Runs all the tests"
   lane :test do
-    scan(scheme: "AppTestes")
+    scan(scheme: "Appetit")
     slather(
-      output_directory: "covarage",
+      output_directory: "coverage",
       workspace: "Appetit.xcworkspace",
-      scheme: "AppTestes",
+      scheme: "Appetit",
       proj: "Appetit.xcodeproj",
-      html: true
-      )
+      html: true,
+      ignore: [
+        "**/Storyboard.swift",
+        "**/AppetitAPI.swift",
+        "**/AppetitAPIManager.swift"
+      ]
+    )
   end
 end

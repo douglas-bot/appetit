@@ -14,7 +14,7 @@ message("Test Comment on PR")
 # fail("fit left in tests") if `grep -r fit specs/ `.length > 1
 
 # Slater config
-slather.configure("Appetit.xcodeproj", "AppTestes", options: {
+slather.configure("Appetit.xcodeproj", "Appetit", options: {
   workspace: 'Appetit.xcworkspace',
   output_directory: "coverage",
   ignore_list: [

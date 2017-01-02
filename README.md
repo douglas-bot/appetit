@@ -5,7 +5,7 @@
 
 -------
 <p align="center">
-    <a href="#Appetit Screens">Motivação</a> &bull;
+    <a href="#Appetit Screens">Appetit Screens</a> &bull;
     <a href="#motivacao">Motivação</a> &bull;
     <a href="#ferramentas">Ferramentas de Testes</a> &bull;
     <a href="#cobertura">Cobertura de Testes</a> &bull;

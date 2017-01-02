@@ -50,7 +50,7 @@ bundle exec fastlane test
 
 ## Cobertura de Testes
 
-Estamos usando o **Slather**, um framework que gera um relatório sobre cobertura de código para projetos do Xcode. 
+- [Slather](https://github.com/SlatherOrg/slather) |  Framework que gera relatórios com cobertura de código para projetos do Xcode.
 
 <h3 align="center">
   <img src="Assets/teste_coverage.png" alt="Cobertura de Testes" />

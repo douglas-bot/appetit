@@ -33,14 +33,6 @@ Esse projeto usa dois frameworks de Testes:
 
 No Xcode 7, a Apple incluiu uma ferramenta de Testes chamada **XCTests**. Ainda existem vários gaps que deixa esse framework nativo em desvantagem quando comparado os outros dois escolhidos. Cito dois pontos bastantes relevantes: Fácil escrita e menos boilerplate de código.
 
-## Cobertura de Testes
-
-Estamos usando o **Slather** framework gerador de cobertura de código para projetos do XCode.
-
-<h3 align="center">
-  <img src="Assets/teste_coverage.png" alt="Cobertura de Testes" />
-</h3>
-
 ## Instalação
 
 Esse projeto usa [Bundler](http://bundler.io) e [Cocoapods](https://cocoapods.org). Tudo o que precisa ser feito é executar os seguintes comandos:
@@ -49,12 +41,20 @@ bundle
 bundle exec pod install
 ```
 
-## Testes e Coverage
+## Testes 
 
 Você pode rodar os testes a qualquer momento. Basta executar o comando: 
 ```
 bundle exec fastlane test
 ```
+
+## Cobertura de Testes
+
+Estamos usando o **Slather**, um framework que gera um relatório sobre cobertura de código para projetos do Xcode. 
+
+<h3 align="center">
+  <img src="Assets/teste_coverage.png" alt="Cobertura de Testes" />
+</h3>
 
 ## License
 This project is licensed under the terms of the MIT license. See the LICENSE file.

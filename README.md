@@ -6,6 +6,7 @@
 -------
 <p align="center">
     <a href="#motivacao">Motivação</a> &bull;
+    <a href="#ferramentas">Ferramentas</a> &bull;
     <a href="#instalacao">Instalação</a>
 </p>
 -------
@@ -13,6 +14,16 @@
 ## Motivação
 
 Esse repositório é referente ao protótipo criado para demonstrar o resultado do estudo e prova de conceito para as ferramentas de testes para iOS.
+
+## Ferramentas de Testes
+
+Esse projeto usa dois frameworks de Testes:
+
+- [Quick](https://github.com/Quick/Quick) |  Behavior-drive development framework para swift e objective-C
+
+- [Nimble](https://github.com/Quick/Nimble) | Matcher framework, ele vem junto com o Quick.
+
+No Xcode 7, a Apple incluiu uma ferramenta de Testes chamada **XCTests**. Ainda existem vários gaps que deixa esse framework nativo em desvantagem quando comparado os outros dois escolhidos. Cito dois pontos bastantes relevantes: Fácil escrita e menos boilerplate de código.
 
 ## Instalação
 

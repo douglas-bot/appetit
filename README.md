@@ -5,11 +5,19 @@
 
 -------
 <p align="center">
+    <a href="#Appetit Screens">Motivação</a> &bull;
     <a href="#motivacao">Motivação</a> &bull;
-    <a href="#ferramentas">Ferramentas</a> &bull;
+    <a href="#ferramentas">Ferramentas de Testes</a> &bull;
+    <a href="#cobertura">Cobertura de Testes</a> &bull;
     <a href="#instalacao">Instalação</a>
 </p>
 -------
+
+## Appetit Screens
+
+<h3 align="center">
+  <img src="assets/appetit_screenshots.png" alt="Appetit Screens" />
+</h3>
 
 ## Motivação
 
@@ -24,6 +32,12 @@ Esse projeto usa dois frameworks de Testes:
 - [Nimble](https://github.com/Quick/Nimble) | Matcher framework, ele vem junto com o Quick.
 
 No Xcode 7, a Apple incluiu uma ferramenta de Testes chamada **XCTests**. Ainda existem vários gaps que deixa esse framework nativo em desvantagem quando comparado os outros dois escolhidos. Cito dois pontos bastantes relevantes: Fácil escrita e menos boilerplate de código.
+
+## Cobertura de Testes
+
+<h3 align="center">
+  <img src="Assets/teste_coverage.png" alt="Cobertura de Testes" />
+</h3>
 
 ## Instalação
 

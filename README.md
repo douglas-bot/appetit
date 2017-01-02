@@ -35,6 +35,8 @@ No Xcode 7, a Apple incluiu uma ferramenta de Testes chamada **XCTests**. Ainda 
 
 ## Cobertura de Testes
 
+Estamos usando o **Slather** framework gerador de cobertura de código para projetos do XCode.
+
 <h3 align="center">
   <img src="Assets/teste_coverage.png" alt="Cobertura de Testes" />
 </h3>

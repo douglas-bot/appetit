@@ -21,6 +21,10 @@ final class ItemsViewController: UIViewController {
     
     var items: [Item] = []
     
+    let style = Style()
+    
+    public var delegate: ItemsDelegate?
+    
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
 }
@@ -28,6 +32,9 @@ final class ItemsViewController: UIViewController {
 extension ItemsViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "Appetit"
+        
         fetchItems()
     }
 }

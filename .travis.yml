@@ -9,7 +9,7 @@ before_install:
 - pod repo update
 
 script:
-- fastlane test
+- bundle exec fastlane test 
 - bundle exec danger
 
 after_success:

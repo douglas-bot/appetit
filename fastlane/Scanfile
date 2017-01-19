@@ -1,4 +1,5 @@
 scheme "Appetit"
-devices ["iPhone 6", "iPhone 6s", "iphone 7"]
+workspace "Appetit.xcworkspace"
+devices ["iphone 7"]
 
 clean true

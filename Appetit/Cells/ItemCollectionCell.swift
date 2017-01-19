@@ -13,6 +13,12 @@ final class ItemCollectionCell: UICollectionViewCell, NibReusable {
     
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var price: UILabel!
+    @IBOutlet weak var imageBackground: UIImageView!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        configure()
+    }
     
     static func size(for parentWidth: CGFloat) -> CGSize {
         let numberOfCells = CGFloat(2)
@@ -22,6 +28,10 @@ final class ItemCollectionCell: UICollectionViewCell, NibReusable {
     
     func setup(item: Item) {
         name.text = item.name
-        price.text = item.price
+        price.text = "R$ \(item.price)"
+    }
+    
+    func configure() {
+        
     }
 }

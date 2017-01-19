@@ -21,6 +21,8 @@
 		97EFF29D1E2DCD0C00CA2F83 /* UIImage+WithColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF29C1E2DCD0C00CA2F83 /* UIImage+WithColor.swift */; };
 		97EFF2A01E2DCD6B00CA2F83 /*  NSAttributedString+FontColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF29F1E2DCD6B00CA2F83 /*  NSAttributedString+FontColor.swift */; };
 		97EFF2A21E2F0B7200CA2F83 /* ListOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2A11E2F0B7200CA2F83 /* ListOrderViewModel.swift */; };
+		97EFF2A41E30742400CA2F83 /* ThumbImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2A31E30742400CA2F83 /* ThumbImage.swift */; };
+		97EFF2A61E30757100CA2F83 /* UIImage+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2A51E30757100CA2F83 /* UIImage+Kingfisher.swift */; };
 		EF0019241E1445F00082CA7D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0019231E1445F00082CA7D /* Item.swift */; };
 		EF0019281E14470E0082CA7D /* AppetitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0019271E14470E0082CA7D /* AppetitAPI.swift */; };
 		EF00192B1E144B3E0082CA7D /* ItemCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF00192A1E144B3E0082CA7D /* ItemCollectionCell.swift */; };
@@ -73,6 +75,8 @@
 		97EFF29C1E2DCD0C00CA2F83 /* UIImage+WithColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+WithColor.swift"; sourceTree = "<group>"; };
 		97EFF29F1E2DCD6B00CA2F83 /*  NSAttributedString+FontColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " NSAttributedString+FontColor.swift"; sourceTree = "<group>"; };
 		97EFF2A11E2F0B7200CA2F83 /* ListOrderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOrderViewModel.swift; sourceTree = "<group>"; };
+		97EFF2A31E30742400CA2F83 /* ThumbImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbImage.swift; sourceTree = "<group>"; };
+		97EFF2A51E30757100CA2F83 /* UIImage+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Kingfisher.swift"; sourceTree = "<group>"; };
 		B9D98D89F0C5A221CA2DC168 /* Pods_Appetit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appetit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0019181E1441BC0082CA7D /* AppetitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppetitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF00191C1E1441BC0082CA7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -217,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				EF0019231E1445F00082CA7D /* Item.swift */,
+				97EFF2A31E30742400CA2F83 /* ThumbImage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -345,6 +350,7 @@
 				97EFF2841E2DA2FF00CA2F83 /* View */,
 				EF1359311E15864200DC6B66 /* Storyboards */,
 				97EFF2991E2DC48E00CA2F83 /* AppCoordinate.swift */,
+				97EFF2A51E30757100CA2F83 /* UIImage+Kingfisher.swift */,
 			);
 			path = Appetit;
 			sourceTree = "<group>";
@@ -607,6 +613,7 @@
 				97EFF2A21E2F0B7200CA2F83 /* ListOrderViewModel.swift in Sources */,
 				97EFF2881E2DA38B00CA2F83 /* GradientView.swift in Sources */,
 				EF0019321E144E3F0082CA7D /* ItemCollectionDataSource.swift in Sources */,
+				97EFF2A41E30742400CA2F83 /* ThumbImage.swift in Sources */,
 				97EFF29D1E2DCD0C00CA2F83 /* UIImage+WithColor.swift in Sources */,
 				EF0019301E144C660082CA7D /* ItemsCollectionViewDataSource.swift in Sources */,
 				EF1359271E145A6800DC6B66 /* AppetitAPIManager.swift in Sources */,
@@ -619,6 +626,7 @@
 				97EFF29A1E2DC48E00CA2F83 /* AppCoordinate.swift in Sources */,
 				97EFF2A01E2DCD6B00CA2F83 /*  NSAttributedString+FontColor.swift in Sources */,
 				EF1359251E1451DB00DC6B66 /* ItemsViewController.swift in Sources */,
+				97EFF2A61E30757100CA2F83 /* UIImage+Kingfisher.swift in Sources */,
 				EF6D249B1E15AF2200BFDB86 /* ColorPalette.swift in Sources */,
 				EF0019241E1445F00082CA7D /* Item.swift in Sources */,
 				EF2CA8511E142FC600D87C60 /* AppDelegate.swift in Sources */,

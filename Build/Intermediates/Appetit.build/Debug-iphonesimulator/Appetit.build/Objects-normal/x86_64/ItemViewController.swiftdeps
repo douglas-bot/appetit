@@ -15,42 +15,42 @@ provides-member:
 - ["C7Appetit18ItemViewController", "down"]
 - ["C7Appetit18ItemViewController", "up"]
 provides-dynamic-lookup:
-- "price"
-- "qntItemLabel"
-- "downButton"
-- "setupView"
-- "name"
-- "down"
-- "modalTransitionController"
-- "value"
-- "viewDidLoad"
-- "addButton"
-- "tapAddItem"
-- "upButton"
-- "viewWillAppear"
-- "imageItem"
 - "up"
+- "qntItemLabel"
+- "price"
+- "value"
+- "viewWillAppear"
+- "tapAddItem"
+- "downButton"
+- "name"
+- "addButton"
+- "modalTransitionController"
+- "setupView"
+- "viewDidLoad"
+- "down"
+- "imageItem"
+- "upButton"
 depends-top-level:
 - "ItemViewControllerDelegate"
-- "UIViewController"
-- !private "BooleanLiteralType"
-- "Bool"
-- "Int"
-- !private "-"
-- "ModalTransition"
-- !private "+"
-- "ItemViewController"
-- !private "??"
-- "UILabel"
-- !private "StringLiteralType"
-- !private "ListOrdersViewController"
-- !private "<="
-- "UIButton"
-- "Item"
-- !private "NSAttributedString"
 - "AssignmentPrecedence"
+- "Int"
+- !private "ListOrdersViewController"
+- "UIViewController"
+- "ModalTransition"
+- "UIButton"
+- !private "<="
+- "ItemViewController"
+- "UILabel"
+- !private "NSAttributedString"
+- !private "+"
+- !private "??"
+- "Item"
 - "UIImageView"
+- !private "-"
+- !private "BooleanLiteralType"
+- !private "StringLiteralType"
 - "Style"
+- "Bool"
 depends-member:
 - !private ["Ps9AnyObject", "ItemViewController"]
 - !private ["Ps9AnyObject", "ListOrdersViewController"]
@@ -63,6 +63,7 @@ depends-member:
 - ["Ps9AnyObject", "delegate"]
 - ["Ps9AnyObject", "down"]
 - ["Ps9AnyObject", "downButton"]
+- !private ["Ps9AnyObject", "download"]
 - ["Ps9AnyObject", "imageItem"]
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "item"]
@@ -86,13 +87,16 @@ depends-member:
 - ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", "viewWillAppear"]
 - ["Ps9AnyObject", ""]
+- !private ["P12ObjectMapper12BaseMappable", "fullPath"]
 - !private ["P12ObjectMapper12BaseMappable", "name"]
 - !private ["P12ObjectMapper12BaseMappable", "price"]
+- !private ["P12ObjectMapper12BaseMappable", "thumImage"]
 - !private ["Ps17BitwiseOperations", "Stride"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["Sb", "deinit"]
 - !private ["PSo15CALayerDelegate", "addTarget"]
 - !private ["PSo15CALayerDelegate", "attributedText"]
+- !private ["PSo15CALayerDelegate", "download"]
 - !private ["PSo15CALayerDelegate", "text"]
 - !private ["Ps7CVarArg", "ItemViewController"]
 - !private ["Ps7CVarArg", "ListOrdersViewController"]
@@ -106,6 +110,7 @@ depends-member:
 - ["Ps7CVarArg", "delegate"]
 - ["Ps7CVarArg", "down"]
 - ["Ps7CVarArg", "downButton"]
+- !private ["Ps7CVarArg", "download"]
 - ["Ps7CVarArg", "imageItem"]
 - ["Ps7CVarArg", "init"]
 - ["Ps7CVarArg", "item"]
@@ -143,6 +148,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "delegate"]
 - ["Ps28CustomDebugStringConvertible", "down"]
 - ["Ps28CustomDebugStringConvertible", "downButton"]
+- !private ["Ps28CustomDebugStringConvertible", "download"]
 - ["Ps28CustomDebugStringConvertible", "imageItem"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - ["Ps28CustomDebugStringConvertible", "item"]
@@ -185,6 +191,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "delegate"]
 - ["Ps23CustomStringConvertible", "down"]
 - ["Ps23CustomStringConvertible", "downButton"]
+- !private ["Ps23CustomStringConvertible", "download"]
 - ["Ps23CustomStringConvertible", "imageItem"]
 - ["Ps23CustomStringConvertible", "init"]
 - ["Ps23CustomStringConvertible", "item"]
@@ -223,6 +230,7 @@ depends-member:
 - ["Ps9Equatable", "delegate"]
 - ["Ps9Equatable", "down"]
 - ["Ps9Equatable", "downButton"]
+- !private ["Ps9Equatable", "download"]
 - ["Ps9Equatable", "imageItem"]
 - ["Ps9Equatable", "init"]
 - ["Ps9Equatable", "item"]
@@ -269,6 +277,7 @@ depends-member:
 - ["Ps8Hashable", "delegate"]
 - ["Ps8Hashable", "down"]
 - ["Ps8Hashable", "downButton"]
+- !private ["Ps8Hashable", "download"]
 - ["Ps8Hashable", "imageItem"]
 - ["Ps8Hashable", "init"]
 - ["Ps8Hashable", "item"]
@@ -303,6 +312,7 @@ depends-member:
 - !private ["Ps17IntegerArithmetic", "Stride"]
 - !private ["V7Appetit4Item", "name"]
 - !private ["V7Appetit4Item", "price"]
+- !private ["V7Appetit4Item", "thumImage"]
 - ["C7Appetit18ItemViewController", "Bool"]
 - ["C7Appetit18ItemViewController", "Int"]
 - ["C7Appetit18ItemViewController", "Item"]
@@ -338,14 +348,19 @@ depends-member:
 - ["C7Appetit18ItemViewController", "viewDidLoad"]
 - ["C7Appetit18ItemViewController", "viewWillAppear"]
 - ["P7Appetit26ItemViewControllerDelegate", "didPressedAddButton"]
+- !private ["P10Kingfisher20KingfisherCompatible", "addTarget"]
+- !private ["P10Kingfisher20KingfisherCompatible", "download"]
+- !private ["P10Kingfisher20KingfisherCompatible", "init"]
 - ["C7Appetit24ListOrdersViewController", "deinit"]
 - !private ["C7Appetit24ListOrdersViewController", "init"]
 - !private ["C7Appetit24ListOrdersViewController", "modalPresentationStyle"]
 - !private ["C7Appetit24ListOrdersViewController", "transitioningDelegate"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["P12ObjectMapper8Mappable", "fullPath"]
 - !private ["P12ObjectMapper8Mappable", "name"]
 - !private ["P12ObjectMapper8Mappable", "price"]
+- !private ["P12ObjectMapper8Mappable", "thumImage"]
 - !private ["Ps10MirrorPath", "Stride"]
 - !private ["Ps10MirrorPath", "init"]
 - ["C7Appetit15ModalTransition", "deinit"]
@@ -364,6 +379,7 @@ depends-member:
 - ["PSo8NSCoding", "delegate"]
 - ["PSo8NSCoding", "down"]
 - ["PSo8NSCoding", "downButton"]
+- !private ["PSo8NSCoding", "download"]
 - ["PSo8NSCoding", "imageItem"]
 - !private ["PSo8NSCoding", "init"]
 - ["PSo8NSCoding", "item"]
@@ -437,6 +453,7 @@ depends-member:
 - ["CSo8NSObject", "delegate"]
 - ["CSo8NSObject", "down"]
 - ["CSo8NSObject", "downButton"]
+- !private ["CSo8NSObject", "download"]
 - ["CSo8NSObject", "imageItem"]
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "item"]
@@ -470,6 +487,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "delegate"]
 - ["PSo16NSObjectProtocol", "down"]
 - ["PSo16NSObjectProtocol", "downButton"]
+- !private ["PSo16NSObjectProtocol", "download"]
 - ["PSo16NSObjectProtocol", "imageItem"]
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "item"]
@@ -510,6 +528,7 @@ depends-member:
 - ["P7RxSwift18ReactiveCompatible", "delegate"]
 - ["P7RxSwift18ReactiveCompatible", "down"]
 - ["P7RxSwift18ReactiveCompatible", "downButton"]
+- !private ["P7RxSwift18ReactiveCompatible", "download"]
 - ["P7RxSwift18ReactiveCompatible", "imageItem"]
 - ["P7RxSwift18ReactiveCompatible", "init"]
 - ["P7RxSwift18ReactiveCompatible", "item"]
@@ -551,11 +570,14 @@ depends-member:
 - !private ["P7Appetit13StyleProvider", "title3"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
+- !private ["V7Appetit10ThumbImage", "fullPath"]
 - !private ["PSo29UIAccessibilityIdentification", "addTarget"]
 - !private ["PSo29UIAccessibilityIdentification", "attributedText"]
+- !private ["PSo29UIAccessibilityIdentification", "download"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo12UIAppearance", "addTarget"]
 - !private ["PSo12UIAppearance", "attributedText"]
+- !private ["PSo12UIAppearance", "download"]
 - !private ["PSo12UIAppearance", "text"]
 - !private ["PSo21UIAppearanceContainer", "ItemViewController"]
 - !private ["PSo21UIAppearanceContainer", "ListOrdersViewController"]
@@ -568,6 +590,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "delegate"]
 - ["PSo21UIAppearanceContainer", "down"]
 - ["PSo21UIAppearanceContainer", "downButton"]
+- !private ["PSo21UIAppearanceContainer", "download"]
 - ["PSo21UIAppearanceContainer", "imageItem"]
 - !private ["PSo21UIAppearanceContainer", "init"]
 - ["PSo21UIAppearanceContainer", "item"]
@@ -629,9 +652,11 @@ depends-member:
 - !private ["VSC15UIControlEvents", "touchUpInside"]
 - !private ["PSo17UICoordinateSpace", "addTarget"]
 - !private ["PSo17UICoordinateSpace", "attributedText"]
+- !private ["PSo17UICoordinateSpace", "download"]
 - !private ["PSo17UICoordinateSpace", "text"]
 - !private ["PSo13UIDynamicItem", "addTarget"]
 - !private ["PSo13UIDynamicItem", "attributedText"]
+- !private ["PSo13UIDynamicItem", "download"]
 - !private ["PSo13UIDynamicItem", "text"]
 - !private ["PSo18UIFocusEnvironment", "ItemViewController"]
 - !private ["PSo18UIFocusEnvironment", "ListOrdersViewController"]
@@ -644,6 +669,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "delegate"]
 - ["PSo18UIFocusEnvironment", "down"]
 - ["PSo18UIFocusEnvironment", "downButton"]
+- !private ["PSo18UIFocusEnvironment", "download"]
 - ["PSo18UIFocusEnvironment", "imageItem"]
 - !private ["PSo18UIFocusEnvironment", "init"]
 - ["PSo18UIFocusEnvironment", "item"]
@@ -668,8 +694,10 @@ depends-member:
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["PSo11UIFocusItem", "addTarget"]
 - !private ["PSo11UIFocusItem", "attributedText"]
+- !private ["PSo11UIFocusItem", "download"]
 - !private ["PSo11UIFocusItem", "text"]
 - ["CSo6UIFont", "deinit"]
+- !private ["CSo11UIImageView", "download"]
 - !private ["CSo7UILabel", "attributedText"]
 - !private ["CSo7UILabel", "text"]
 - !private ["OSC24UIModalPresentationStyle", "custom"]
@@ -696,6 +724,7 @@ depends-member:
 - ["CSo11UIResponder", "delegate"]
 - ["CSo11UIResponder", "down"]
 - ["CSo11UIResponder", "downButton"]
+- !private ["CSo11UIResponder", "download"]
 - ["CSo11UIResponder", "imageItem"]
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "item"]
@@ -728,6 +757,7 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "delegate"]
 - ["PSo30UIResponderStandardEditActions", "down"]
 - ["PSo30UIResponderStandardEditActions", "downButton"]
+- !private ["PSo30UIResponderStandardEditActions", "download"]
 - ["PSo30UIResponderStandardEditActions", "imageItem"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
 - ["PSo30UIResponderStandardEditActions", "item"]
@@ -791,6 +821,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "delegate"]
 - ["PSo18UITraitEnvironment", "down"]
 - ["PSo18UITraitEnvironment", "downButton"]
+- !private ["PSo18UITraitEnvironment", "download"]
 - ["PSo18UITraitEnvironment", "imageItem"]
 - !private ["PSo18UITraitEnvironment", "init"]
 - ["PSo18UITraitEnvironment", "item"]
@@ -815,6 +846,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "addTarget"]
 - !private ["CSo6UIView", "attributedText"]
+- !private ["CSo6UIView", "download"]
 - !private ["CSo6UIView", "text"]
 - ["CSo16UIViewController", "Bool"]
 - ["CSo16UIViewController", "Int"]
@@ -865,6 +897,7 @@ depends-member:
 - !private ["Sc", "deinit"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addTarget"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "attributedText"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "download"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
@@ -887,6 +920,7 @@ depends-member:
 - ["Ps9_Hashable", "delegate"]
 - ["Ps9_Hashable", "down"]
 - ["Ps9_Hashable", "downButton"]
+- !private ["Ps9_Hashable", "download"]
 - ["Ps9_Hashable", "imageItem"]
 - ["Ps9_Hashable", "init"]
 - ["Ps9_Hashable", "item"]
@@ -953,6 +987,7 @@ depends-nominal:
 - !private "V7Appetit4Item"
 - "C7Appetit18ItemViewController"
 - "P7Appetit26ItemViewControllerDelegate"
+- !private "P10Kingfisher20KingfisherCompatible"
 - "C7Appetit24ListOrdersViewController"
 - !private "Ps25LosslessStringConvertible"
 - !private "P12ObjectMapper8Mappable"
@@ -982,6 +1017,7 @@ depends-nominal:
 - "P7Appetit13StyleProvider"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
+- !private "V7Appetit10ThumbImage"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
@@ -996,6 +1032,7 @@ depends-nominal:
 - "PSo18UIFocusEnvironment"
 - !private "PSo11UIFocusItem"
 - "CSo6UIFont"
+- !private "CSo11UIImageView"
 - !private "CSo7UILabel"
 - "OSC24UIModalPresentationStyle"
 - "CSo22UINavigationController"
@@ -1042,6 +1079,10 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64.swiftmodule"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
@@ -1058,10 +1099,6 @@ depends-external:
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
-- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
-- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
-- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
-- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/Moya_ObjectMapper.swiftmodule/x86_64.swiftmodule"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya_ObjectMapper-Swift.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya-ObjectMapper-umbrella.h"
@@ -1070,4 +1107,9 @@ depends-external:
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-umbrella.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/module.modulemap"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
 interface-hash: "fae9842fec5b0dcb49b9287eb6c5b9a2"

@@ -29,9 +29,10 @@ final class ItemCollectionCell: UICollectionViewCell, NibReusable {
     func setup(item: Item) {
         name.text = item.name
         price.text = "R$ \(item.price)"
+        imageBackground.download(image: item.thumImage?.fullPath() ?? "")   
     }
     
     func configure() {
-        
+        imageBackground.layer.cornerRadius = 5
     }
 }

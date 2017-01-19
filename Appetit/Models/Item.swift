@@ -14,7 +14,7 @@ public struct Item {
     public var name: String = ""
     public var price: String = ""
     public var isAdd: Bool = false
-    public var image: String = ""
+    var thumImage: ThumbImage?
     //var description: String = ""
 }
 
@@ -28,7 +28,7 @@ extension Item: Mappable {
         name <- map["name"]
         isAdd <- map["isAdd"]
         price <- map["price"]
-        image <- map["image"]
+        thumImage <- map["image"]
         //description <- map["description"]
     }
 }

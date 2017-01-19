@@ -1,231 +1,184 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "AppetitAPI"
 provides-nominal:
-- "O7Appetit10AppetitAPI"
 provides-member:
-- ["O7Appetit10AppetitAPI", ""]
+- ["CSo11UIImageView", ""]
+- ["CSo11UIImageView", "download"]
 provides-dynamic-lookup:
+- "download"
 depends-top-level:
-- "Moya"
-- "Data"
-- "Task"
-- "Bool"
-- !private "StringLiteralType"
-- "TargetType"
+- "UIImageView"
 - "String"
-- "URL"
-- !private "Dictionary"
-- "AppetitAPI"
-- !private "BooleanLiteralType"
+- !private "ImageResource"
+- !private "URL"
 depends-member:
-- !private ["Ps9AnyObject", "init"]
-- ["O7Appetit10AppetitAPI", "Bool"]
-- ["O7Appetit10AppetitAPI", "Data"]
-- ["O7Appetit10AppetitAPI", "Moya"]
-- ["O7Appetit10AppetitAPI", "String"]
-- ["O7Appetit10AppetitAPI", "Task"]
-- ["O7Appetit10AppetitAPI", "URL"]
-- ["O7Appetit10AppetitAPI", "baseURL"]
-- ["O7Appetit10AppetitAPI", "deinit"]
-- ["O7Appetit10AppetitAPI", "item"]
-- ["O7Appetit10AppetitAPI", "items"]
-- ["O7Appetit10AppetitAPI", "method"]
-- ["O7Appetit10AppetitAPI", "parameters"]
-- ["O7Appetit10AppetitAPI", "path"]
-- ["O7Appetit10AppetitAPI", "sampleData"]
-- ["O7Appetit10AppetitAPI", "task"]
-- ["O7Appetit10AppetitAPI", "validate"]
-- !private ["Ps23BidirectionalCollection", "init"]
-- !private ["Ps22BidirectionalIndexable", "init"]
-- ["Sb", "deinit"]
-- !private ["Ps7CVarArg", "Key"]
-- !private ["Ps7CVarArg", "Value"]
-- !private ["Ps7CVarArg", "init"]
-- !private ["Vs9Character", "deinit"]
-- !private ["Ps10Collection", "Key"]
-- !private ["Ps10Collection", "Value"]
-- !private ["Ps10Collection", "init"]
-- !private ["Ps10Comparable", "init"]
-- !private ["Ps28CustomDebugStringConvertible", "Key"]
-- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps9AnyObject", "ImageResource"]
+- !private ["Ps9AnyObject", "URL"]
+- ["Ps9AnyObject", "download"]
+- !private ["Ps9AnyObject", "kf"]
+- !private ["Ps9AnyObject", "setImage"]
+- !private ["PSo15CALayerDelegate", "ImageResource"]
+- !private ["PSo15CALayerDelegate", "URL"]
+- ["PSo15CALayerDelegate", "download"]
+- !private ["PSo15CALayerDelegate", "kf"]
+- !private ["Ps7CVarArg", "ImageResource"]
+- !private ["Ps7CVarArg", "URL"]
+- ["Ps7CVarArg", "download"]
+- !private ["Ps7CVarArg", "kf"]
+- !private ["Ps28CustomDebugStringConvertible", "ImageResource"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- ["Ps28CustomDebugStringConvertible", "download"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kf"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
-- !private ["Ps17CustomReflectable", "Key"]
-- !private ["Ps17CustomReflectable", "Value"]
-- !private ["Ps17CustomReflectable", "init"]
-- !private ["Ps23CustomStringConvertible", "Key"]
-- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "ImageResource"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- ["Ps23CustomStringConvertible", "download"]
 - !private ["Ps23CustomStringConvertible", "init"]
-- ["V10Foundation4Data", "deinit"]
-- !private ["V10Foundation4Data", "init"]
-- !private ["Vs10Dictionary", "Key"]
-- !private ["Vs10Dictionary", "Value"]
-- ["Vs10Dictionary", "deinit"]
-- !private ["Sd", "deinit"]
-- !private ["Ps9Equatable", "get"]
+- !private ["Ps23CustomStringConvertible", "kf"]
+- !private ["Ps9Equatable", "ImageResource"]
+- !private ["Ps9Equatable", "URL"]
+- ["Ps9Equatable", "download"]
 - !private ["Ps9Equatable", "init"]
-- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
-- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
-- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps32ExpressibleByStringInterpolation", "init"]
-- !private ["Ps26ExpressibleByStringLiteral", "init"]
-- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
-- !private ["Sf", "deinit"]
-- ["O9Alamofire10HTTPMethod", "deinit"]
-- !private ["O9Alamofire10HTTPMethod", "get"]
-- !private ["Ps8Hashable", "get"]
+- !private ["Ps9Equatable", "kf"]
+- !private ["Ps8Hashable", "ImageResource"]
+- !private ["Ps8Hashable", "URL"]
+- ["Ps8Hashable", "download"]
 - !private ["Ps8Hashable", "init"]
-- !private ["Ps9Indexable", "Key"]
-- !private ["Ps9Indexable", "Value"]
-- !private ["Ps9Indexable", "init"]
-- !private ["Ps13IndexableBase", "Key"]
-- !private ["Ps13IndexableBase", "Value"]
-- !private ["Ps13IndexableBase", "init"]
-- !private ["Si", "deinit"]
-- !private ["Vs5Int16", "deinit"]
-- !private ["Vs5Int32", "deinit"]
-- !private ["Vs5Int64", "deinit"]
-- !private ["Vs4Int8", "deinit"]
-- !private ["P10Kingfisher20KingfisherCompatible", "init"]
-- !private ["Ps25LosslessStringConvertible", "init"]
-- !private ["Ps10MirrorPath", "init"]
-- !private ["Ps17MutableCollection", "init"]
-- !private ["Ps16MutableIndexable", "init"]
-- !private ["PSo8NSCoding", "init"]
-- !private ["PSo9NSCopying", "init"]
-- !private ["PSo16NSMutableCopying", "init"]
-- !private ["CSo8NSObject", "init"]
-- !private ["PSo16NSObjectProtocol", "init"]
-- !private ["PSo14NSSecureCoding", "init"]
-- !private ["CSo8NSString", "init"]
+- !private ["Ps8Hashable", "kf"]
+- ["V10Kingfisher13ImageResource", "deinit"]
+- !private ["V10Kingfisher13ImageResource", "init"]
+- ["C10Kingfisher10Kingfisher", "deinit"]
+- !private ["C10Kingfisher10Kingfisher", "setImage"]
+- !private ["P10Kingfisher20KingfisherCompatible", "ImageResource"]
+- !private ["P10Kingfisher20KingfisherCompatible", "URL"]
+- !private ["P10Kingfisher20KingfisherCompatible", "kf"]
+- !private ["PSo8NSCoding", "ImageResource"]
+- !private ["PSo8NSCoding", "URL"]
+- ["PSo8NSCoding", "download"]
+- !private ["PSo8NSCoding", "kf"]
+- !private ["CSo8NSObject", "ImageResource"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "URL"]
+- ["CSo8NSObject", "download"]
+- !private ["CSo8NSObject", "kf"]
+- !private ["PSo16NSObjectProtocol", "ImageResource"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- ["PSo16NSObjectProtocol", "download"]
+- !private ["PSo16NSObjectProtocol", "kf"]
 - ["Sq", "deinit"]
-- !private ["Ps22RandomAccessCollection", "init"]
-- !private ["Ps21RandomAccessIndexable", "init"]
-- !private ["Ps26RangeReplaceableCollection", "init"]
-- !private ["Ps25RangeReplaceableIndexable", "init"]
-- !private ["Ps16RawRepresentable", "get"]
-- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "ImageResource"]
+- !private ["P7RxSwift18ReactiveCompatible", "URL"]
+- ["P7RxSwift18ReactiveCompatible", "download"]
+- !private ["P7RxSwift18ReactiveCompatible", "kf"]
 - !private ["P10Foundation20ReferenceConvertible", "init"]
 - !private ["P10Kingfisher8Resource", "init"]
-- !private ["Ps8Sequence", "Key"]
-- !private ["Ps8Sequence", "Value"]
-- !private ["Ps8Sequence", "init"]
+- ["C10Kingfisher17RetrieveImageTask", "deinit"]
 - ["SS", "deinit"]
-- !private ["SS", "init"]
-- !private ["P4Moya10TargetType", "Data"]
-- !private ["P4Moya10TargetType", "URL"]
-- ["P4Moya10TargetType", "baseURL"]
-- ["P4Moya10TargetType", "item"]
-- ["P4Moya10TargetType", "items"]
-- ["P4Moya10TargetType", "method"]
-- ["P4Moya10TargetType", "parameters"]
-- ["P4Moya10TargetType", "path"]
-- ["P4Moya10TargetType", "sampleData"]
-- ["P4Moya10TargetType", "task"]
-- ["P4Moya10TargetType", "validate"]
-- ["P4Moya10TargetType", ""]
-- ["O4Moya4Task", "deinit"]
-- !private ["O4Moya4Task", "request"]
-- !private ["Ps16TextOutputStream", "init"]
-- !private ["Ps20TextOutputStreamable", "init"]
-- !private ["Su", "deinit"]
-- !private ["Vs6UInt16", "deinit"]
-- !private ["Vs6UInt32", "deinit"]
-- !private ["Vs6UInt64", "deinit"]
-- !private ["Vs5UInt8", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "ImageResource"]
+- !private ["PSo29UIAccessibilityIdentification", "URL"]
+- ["PSo29UIAccessibilityIdentification", "download"]
+- !private ["PSo29UIAccessibilityIdentification", "kf"]
+- !private ["PSo12UIAppearance", "ImageResource"]
+- !private ["PSo12UIAppearance", "URL"]
+- ["PSo12UIAppearance", "download"]
+- !private ["PSo12UIAppearance", "kf"]
+- !private ["PSo21UIAppearanceContainer", "ImageResource"]
+- !private ["PSo21UIAppearanceContainer", "URL"]
+- ["PSo21UIAppearanceContainer", "download"]
+- !private ["PSo21UIAppearanceContainer", "kf"]
+- !private ["PSo17UICoordinateSpace", "ImageResource"]
+- !private ["PSo17UICoordinateSpace", "URL"]
+- ["PSo17UICoordinateSpace", "download"]
+- !private ["PSo17UICoordinateSpace", "kf"]
+- !private ["PSo13UIDynamicItem", "ImageResource"]
+- !private ["PSo13UIDynamicItem", "URL"]
+- ["PSo13UIDynamicItem", "download"]
+- !private ["PSo13UIDynamicItem", "kf"]
+- !private ["PSo18UIFocusEnvironment", "ImageResource"]
+- !private ["PSo18UIFocusEnvironment", "URL"]
+- ["PSo18UIFocusEnvironment", "download"]
+- !private ["PSo18UIFocusEnvironment", "kf"]
+- !private ["PSo11UIFocusItem", "ImageResource"]
+- !private ["PSo11UIFocusItem", "URL"]
+- ["PSo11UIFocusItem", "download"]
+- !private ["PSo11UIFocusItem", "kf"]
+- !private ["CSo11UIImageView", "ImageResource"]
+- ["CSo11UIImageView", "String"]
+- !private ["CSo11UIImageView", "URL"]
+- ["CSo11UIImageView", "deinit"]
+- ["CSo11UIImageView", "download"]
+- !private ["CSo11UIImageView", "kf"]
+- !private ["CSo11UIResponder", "ImageResource"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "URL"]
+- ["CSo11UIResponder", "download"]
+- !private ["CSo11UIResponder", "kf"]
+- !private ["PSo30UIResponderStandardEditActions", "ImageResource"]
+- !private ["PSo30UIResponderStandardEditActions", "URL"]
+- ["PSo30UIResponderStandardEditActions", "download"]
+- !private ["PSo30UIResponderStandardEditActions", "kf"]
+- !private ["PSo18UITraitEnvironment", "ImageResource"]
+- !private ["PSo18UITraitEnvironment", "URL"]
+- ["PSo18UITraitEnvironment", "download"]
+- !private ["PSo18UITraitEnvironment", "kf"]
+- !private ["CSo6UIView", "ImageResource"]
+- ["CSo6UIView", "String"]
+- !private ["CSo6UIView", "URL"]
+- ["CSo6UIView", "download"]
+- !private ["CSo6UIView", "kf"]
 - ["V10Foundation3URL", "deinit"]
 - !private ["V10Foundation3URL", "init"]
 - !private ["P9Alamofire14URLConvertible", "init"]
-- !private ["Sc", "deinit"]
-- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
-- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
-- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "ImageResource"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "URL"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "download"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "kf"]
 - !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
-- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
-- !private ["Ps9_Hashable", "get"]
+- !private ["Ps9_Hashable", "ImageResource"]
+- !private ["Ps9_Hashable", "URL"]
+- ["Ps9_Hashable", "download"]
 - !private ["Ps9_Hashable", "init"]
-- !private ["P10Foundation18_MutablePairBoxing", "init"]
-- !private ["Ps21_ObjectiveCBridgeable", "Key"]
-- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps9_Hashable", "kf"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
-- !private "Ps9AnyObject"
-- "O7Appetit10AppetitAPI"
-- !private "Ps23BidirectionalCollection"
-- !private "Ps22BidirectionalIndexable"
-- "Sb"
-- !private "Ps7CVarArg"
-- !private "Vs9Character"
-- !private "Ps10Collection"
-- !private "Ps10Comparable"
-- !private "Ps28CustomDebugStringConvertible"
+- "Ps9AnyObject"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
-- !private "Ps17CustomReflectable"
-- !private "Ps23CustomStringConvertible"
-- "V10Foundation4Data"
-- "Vs10Dictionary"
-- !private "Sd"
-- !private "Ps9Equatable"
-- !private "Ps30ExpressibleByDictionaryLiteral"
-- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
-- !private "Ps32ExpressibleByStringInterpolation"
-- !private "Ps26ExpressibleByStringLiteral"
-- !private "Ps33ExpressibleByUnicodeScalarLiteral"
-- !private "Sf"
-- "O9Alamofire10HTTPMethod"
-- !private "Ps8Hashable"
-- !private "Ps9Indexable"
-- !private "Ps13IndexableBase"
-- !private "Si"
-- !private "Vs5Int16"
-- !private "Vs5Int32"
-- !private "Vs5Int64"
-- !private "Vs4Int8"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "V10Kingfisher13ImageResource"
+- "C10Kingfisher10Kingfisher"
 - !private "P10Kingfisher20KingfisherCompatible"
-- !private "Ps25LosslessStringConvertible"
-- !private "Ps10MirrorPath"
-- !private "Ps17MutableCollection"
-- !private "Ps16MutableIndexable"
-- !private "PSo8NSCoding"
-- !private "PSo9NSCopying"
-- !private "PSo16NSMutableCopying"
-- !private "CSo8NSObject"
-- !private "PSo16NSObjectProtocol"
-- !private "PSo14NSSecureCoding"
-- !private "CSo8NSString"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
 - "Sq"
-- !private "Ps22RandomAccessCollection"
-- !private "Ps21RandomAccessIndexable"
-- !private "Ps26RangeReplaceableCollection"
-- !private "Ps25RangeReplaceableIndexable"
-- !private "Ps16RawRepresentable"
-- !private "P7RxSwift18ReactiveCompatible"
+- "P7RxSwift18ReactiveCompatible"
 - !private "P10Foundation20ReferenceConvertible"
 - !private "P10Kingfisher8Resource"
-- !private "Ps8Sequence"
+- "C10Kingfisher17RetrieveImageTask"
 - "SS"
-- "P4Moya10TargetType"
-- "O4Moya4Task"
-- !private "Ps16TextOutputStream"
-- !private "Ps20TextOutputStreamable"
-- !private "Su"
-- !private "Vs6UInt16"
-- !private "Vs6UInt32"
-- !private "Vs6UInt64"
-- !private "Vs5UInt8"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
 - "V10Foundation3URL"
 - !private "P9Alamofire14URLConvertible"
-- !private "Sc"
-- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
-- !private "Ps34_ExpressibleByBuiltinStringLiteral"
-- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
-- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
 - !private "Ps34_ExpressibleByFileReferenceLiteral"
-- !private "Ps35_HasCustomAnyHashableRepresentation"
-- !private "Ps9_Hashable"
-- !private "P10Foundation18_MutablePairBoxing"
+- "Ps9_Hashable"
 - !private "Ps21_ObjectiveCBridgeable"
 depends-dynamic-lookup:
 depends-external:
@@ -272,4 +225,4 @@ depends-external:
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
-interface-hash: "8fde9ccfa8060a4a097bb2fabe7f57f8"
+interface-hash: "240c3961e67db3f20f5efb7edc28d29f"

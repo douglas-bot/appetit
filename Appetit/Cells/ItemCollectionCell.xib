@@ -76,6 +76,11 @@
                 <constraint firstItem="yeS-0j-6fh" firstAttribute="leading" secondItem="dqz-Uj-zNc" secondAttribute="leading" constant="4" id="uzC-i6-QJ7"/>
             </constraints>
             <size key="customSize" width="364" height="92"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="5"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
             <connections>
                 <outlet property="imageBackground" destination="yeS-0j-6fh" id="XX3-lE-KRA"/>
                 <outlet property="name" destination="MJE-Gt-xiP" id="c2U-NT-JTA"/>

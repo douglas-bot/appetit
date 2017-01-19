@@ -12,23 +12,24 @@ provides-member:
 - ["V7Appetit18ListOrderViewModel", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Style"
-- "String"
-- !private "print"
+- !private "StringLiteralType"
 - "Item"
-- "Void"
-- "AssignmentPrecedence"
 - "NSAttributedString"
+- "Void"
+- !private "print"
+- "String"
+- !private "Style"
+- "AssignmentPrecedence"
 - "ListOrderViewModelProtocol"
 - "ListOrderViewModel"
-- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["P12ObjectMapper12BaseMappable", "id"]
-- !private ["P12ObjectMapper12BaseMappable", "image"]
 - !private ["P12ObjectMapper12BaseMappable", "init"]
 - !private ["P12ObjectMapper12BaseMappable", "isAdd"]
+- !private ["P12ObjectMapper12BaseMappable", "name"]
 - !private ["P12ObjectMapper12BaseMappable", "price"]
+- !private ["P12ObjectMapper12BaseMappable", "thumImage"]
 - ["Sb", "deinit"]
 - !private ["Ps7CVarArg", "init"]
 - !private ["Ps10Comparable", "init"]
@@ -45,10 +46,11 @@ depends-member:
 - ["Si", "deinit"]
 - ["V7Appetit4Item", "deinit"]
 - !private ["V7Appetit4Item", "id"]
-- !private ["V7Appetit4Item", "image"]
 - !private ["V7Appetit4Item", "init"]
 - !private ["V7Appetit4Item", "isAdd"]
+- !private ["V7Appetit4Item", "name"]
 - !private ["V7Appetit4Item", "price"]
+- !private ["V7Appetit4Item", "thumImage"]
 - ["V7Appetit18ListOrderViewModel", "Item"]
 - ["V7Appetit18ListOrderViewModel", "NSAttributedString"]
 - ["V7Appetit18ListOrderViewModel", "String"]
@@ -90,10 +92,11 @@ depends-member:
 - ["P7Appetit32ListOrdersViewControllerDelegate", "title"]
 - !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["P12ObjectMapper8Mappable", "id"]
-- !private ["P12ObjectMapper8Mappable", "image"]
 - !private ["P12ObjectMapper8Mappable", "init"]
 - !private ["P12ObjectMapper8Mappable", "isAdd"]
+- !private ["P12ObjectMapper8Mappable", "name"]
 - !private ["P12ObjectMapper8Mappable", "price"]
+- !private ["P12ObjectMapper8Mappable", "thumImage"]
 - !private ["Ps10MirrorPath", "init"]
 - ["CSo18NSAttributedString", "deinit"]
 - !private ["CSo18NSAttributedString", "init"]
@@ -104,6 +107,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
 - !private ["P7RxSwift18ReactiveCompatible", "init"]
 - ["SS", "deinit"]
 - !private ["SS", "init"]
@@ -160,6 +164,7 @@ depends-nominal:
 - !private "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
+- "Sq"
 - !private "P7RxSwift18ReactiveCompatible"
 - "SS"
 - "V7Appetit5Style"
@@ -188,6 +193,10 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64.swiftmodule"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
@@ -204,10 +213,6 @@ depends-external:
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
-- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
-- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
-- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
-- "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/Moya_ObjectMapper.swiftmodule/x86_64.swiftmodule"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya_ObjectMapper-Swift.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya-ObjectMapper-umbrella.h"

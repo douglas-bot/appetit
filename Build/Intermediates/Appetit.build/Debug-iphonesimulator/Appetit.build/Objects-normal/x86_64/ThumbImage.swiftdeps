@@ -1,70 +1,52 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "Item"
+- "ThumbImage"
 provides-nominal:
-- "V7Appetit4Item"
+- "V7Appetit10ThumbImage"
 provides-member:
-- ["V7Appetit4Item", ""]
+- ["V7Appetit10ThumbImage", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Item"
-- "ThumbImage"
-- "Bool"
-- "Int"
-- "BooleanLiteralType"
 - "String"
 - "Map"
-- "StringLiteralType"
 - "Mappable"
 - !private "<-"
+- "StringLiteralType"
+- "ThumbImage"
 depends-member:
 - ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "subscript"]
-- !private ["P12ObjectMapper12BaseMappable", "id"]
 - ["P12ObjectMapper12BaseMappable", "init"]
-- !private ["P12ObjectMapper12BaseMappable", "isAdd"]
 - ["P12ObjectMapper12BaseMappable", "mapping"]
-- !private ["P12ObjectMapper12BaseMappable", "name"]
-- !private ["P12ObjectMapper12BaseMappable", "price"]
-- !private ["P12ObjectMapper12BaseMappable", "thumImage"]
+- !private ["P12ObjectMapper12BaseMappable", "path"]
 - ["P12ObjectMapper12BaseMappable", ""]
-- ["Sb", "deinit"]
+- !private ["Sb", "deinit"]
 - ["Ps7CVarArg", "init"]
+- !private ["Vs9Character", "deinit"]
 - ["Ps10Comparable", "init"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
 - ["Ps17CustomReflectable", "init"]
 - ["Ps23CustomStringConvertible", "init"]
+- !private ["Sd", "deinit"]
 - ["Ps9Equatable", "init"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - ["Ps32ExpressibleByStringInterpolation", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
 - ["Ps8Hashable", "init"]
-- ["Si", "deinit"]
-- ["V7Appetit4Item", "Bool"]
-- ["V7Appetit4Item", "Int"]
-- ["V7Appetit4Item", "Map"]
-- ["V7Appetit4Item", "String"]
-- ["V7Appetit4Item", "ThumbImage"]
-- ["V7Appetit4Item", "deinit"]
-- ["V7Appetit4Item", "id"]
-- ["V7Appetit4Item", "init"]
-- ["V7Appetit4Item", "isAdd"]
-- ["V7Appetit4Item", "mapping"]
-- ["V7Appetit4Item", "name"]
-- ["V7Appetit4Item", "price"]
-- ["V7Appetit4Item", "thumImage"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
 - ["Ps25LosslessStringConvertible", "init"]
 - ["C12ObjectMapper3Map", "deinit"]
 - !private ["C12ObjectMapper3Map", "subscript"]
-- !private ["P12ObjectMapper8Mappable", "id"]
 - ["P12ObjectMapper8Mappable", "init"]
-- !private ["P12ObjectMapper8Mappable", "isAdd"]
 - ["P12ObjectMapper8Mappable", "mapping"]
-- !private ["P12ObjectMapper8Mappable", "name"]
-- !private ["P12ObjectMapper8Mappable", "price"]
-- !private ["P12ObjectMapper8Mappable", "thumImage"]
+- !private ["P12ObjectMapper8Mappable", "path"]
 - ["P12ObjectMapper8Mappable", ""]
 - ["Ps10MirrorPath", "init"]
 - ["PSo8NSCoding", "init"]
@@ -74,14 +56,25 @@ depends-member:
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo14NSSecureCoding", "init"]
 - ["CSo8NSString", "init"]
-- ["Sq", "deinit"]
 - ["P7RxSwift18ReactiveCompatible", "init"]
 - ["SS", "deinit"]
 - ["SS", "init"]
 - ["Ps16TextOutputStream", "init"]
 - ["Ps20TextOutputStreamable", "init"]
-- !private ["V7Appetit10ThumbImage", "deinit"]
+- ["V7Appetit10ThumbImage", "Map"]
+- ["V7Appetit10ThumbImage", "String"]
+- ["V7Appetit10ThumbImage", "deinit"]
+- ["V7Appetit10ThumbImage", "fullPath"]
+- ["V7Appetit10ThumbImage", "init"]
+- ["V7Appetit10ThumbImage", "mapping"]
+- ["V7Appetit10ThumbImage", "path"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
 - ["P9Alamofire14URLConvertible", "init"]
+- !private ["Sc", "deinit"]
 - ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
@@ -92,21 +85,27 @@ depends-member:
 depends-nominal:
 - "Ps9AnyObject"
 - "P12ObjectMapper12BaseMappable"
-- "Sb"
+- !private "Sb"
 - "Ps7CVarArg"
+- !private "Vs9Character"
 - "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
 - "Ps29CustomPlaygroundQuickLookable"
 - "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
+- !private "Sd"
 - "Ps9Equatable"
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - "Ps32ExpressibleByStringInterpolation"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
 - "Ps8Hashable"
-- "Si"
-- "V7Appetit4Item"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
 - "Ps25LosslessStringConvertible"
 - "C12ObjectMapper3Map"
 - "P12ObjectMapper8Mappable"
@@ -118,13 +117,18 @@ depends-nominal:
 - "PSo16NSObjectProtocol"
 - "PSo14NSSecureCoding"
 - "CSo8NSString"
-- "Sq"
 - "P7RxSwift18ReactiveCompatible"
 - "SS"
 - "Ps16TextOutputStream"
 - "Ps20TextOutputStreamable"
-- !private "V7Appetit10ThumbImage"
+- "V7Appetit10ThumbImage"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
 - "P9Alamofire14URLConvertible"
+- !private "Sc"
 - "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
 - "Ps34_ExpressibleByBuiltinStringLiteral"
 - "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
@@ -172,4 +176,4 @@ depends-external:
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-Swift.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Headers/Reusable-umbrella.h"
 - "/iOS Projects/Github repositories/appetit/Build/Products/Debug-iphonesimulator/Reusable/Reusable.framework/Modules/module.modulemap"
-interface-hash: "9550acb273f790d1b407736aef75e1c0"
+interface-hash: "bfcf09abb00ded3f4bf020e5e970abaa"

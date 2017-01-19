@@ -17,7 +17,7 @@ enum AppetitAPI {
 
 
 extension AppetitAPI: TargetType {
-    var baseURL: URL { return URL(string: "https://gist.githubusercontent.com/douglastaquary/526a148691d2357f9752203ac6d6fc3f/raw/12af12f693f5f52d2505157770591f8cf8c453c2")! }
+    var baseURL: URL { return URL(string: "https://gist.githubusercontent.com/douglastaquary/526a148691d2357f9752203ac6d6fc3f/raw/e1b26da8b7e676e1f625915f1b534464ab069981")! }
     
     var path: String {
         switch self {

@@ -78,7 +78,7 @@ extension ItemViewController {
         price.attributedText = NSAttributedString(string: "R$ \(priveValue)",
                                                   font: style.title3,
                                                   color: style.textColor)
-        
+        imageItem.download(image: item?.thumImage?.fullPath() ?? "")
 
     }
     

@@ -60,7 +60,7 @@ extension ListOrderViewModel {
                                               font: style.subhead,
                                               color: style.textColor)
         
-        self.item = Item(id: item.id, name: item.image, price: item.price, isAdd: item.isAdd, image: item.image)
+        self.item = Item(id: item.id, name: item.name, price: item.price, isAdd: item.isAdd, thumImage: item.thumImage)
         self.didTapCancel = didTapCancel
         self.didTapSave = didTapSave
     }

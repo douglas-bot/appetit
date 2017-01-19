@@ -332,6 +332,11 @@ SWIFT_CLASS("_TtC7Appetit20TitleDescriptionView")
 @end
 
 
+@interface UIImageView (SWIFT_EXTENSION(Appetit))
+- (void)downloadWithImage:(NSString * _Nonnull)url;
+@end
+
+
 @interface UIViewController (SWIFT_EXTENSION(Appetit))
 @end
 

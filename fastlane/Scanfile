@@ -1,0 +1,4 @@
+scheme "Appetit"
+devices ["iPhone 6", "iPhone 6s", "iphone 7"]
+
+clean true

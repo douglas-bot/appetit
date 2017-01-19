@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		39A9513242F94D9454FADFDA /* Pods_Appetit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D98D89F0C5A221CA2DC168 /* Pods_Appetit.framework */; };
 		8FC9355D91F5233753A264DB /* Pods_AppetitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E01EF2B460BAA0D5DB7B73 /* Pods_AppetitTests.framework */; };
+		97EFF2861E2DA35200CA2F83 /* ClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2851E2DA35200CA2F83 /* ClearButton.swift */; };
+		97EFF2881E2DA38B00CA2F83 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2871E2DA38B00CA2F83 /* GradientView.swift */; };
+		97EFF28A1E2DA3BC00CA2F83 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2891E2DA3BC00CA2F83 /* Style.swift */; };
+		97EFF28C1E2DA66100CA2F83 /* TintButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF28B1E2DA66100CA2F83 /* TintButton.swift */; };
+		97EFF28E1E2DB2DE00CA2F83 /* TextDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF28D1E2DB2DE00CA2F83 /* TextDescriptionView.swift */; };
+		97EFF2911E2DB5BB00CA2F83 /* ModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2901E2DB5BB00CA2F83 /* ModalTransition.swift */; };
+		97EFF2961E2DC11E00CA2F83 /* ListOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2951E2DC11E00CA2F83 /* ListOrders.swift */; };
+		97EFF2981E2DC38600CA2F83 /* ListOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2971E2DC38600CA2F83 /* ListOrdersViewController.swift */; };
+		97EFF29A1E2DC48E00CA2F83 /* AppCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2991E2DC48E00CA2F83 /* AppCoordinate.swift */; };
+		97EFF29D1E2DCD0C00CA2F83 /* UIImage+WithColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF29C1E2DCD0C00CA2F83 /* UIImage+WithColor.swift */; };
+		97EFF2A01E2DCD6B00CA2F83 /*  NSAttributedString+FontColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF29F1E2DCD6B00CA2F83 /*  NSAttributedString+FontColor.swift */; };
+		97EFF2A21E2F0B7200CA2F83 /* ListOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EFF2A11E2F0B7200CA2F83 /* ListOrderViewModel.swift */; };
 		EF0019241E1445F00082CA7D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0019231E1445F00082CA7D /* Item.swift */; };
 		EF0019281E14470E0082CA7D /* AppetitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0019271E14470E0082CA7D /* AppetitAPI.swift */; };
 		EF00192B1E144B3E0082CA7D /* ItemCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF00192A1E144B3E0082CA7D /* ItemCollectionCell.swift */; };
@@ -49,6 +61,18 @@
 		463A930AFD5FE4DFA88005A4 /* Pods-Appetit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appetit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Appetit/Pods-Appetit.release.xcconfig"; sourceTree = "<group>"; };
 		756FA66D17739C41BF4845EA /* Pods-Appetit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appetit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Appetit/Pods-Appetit.debug.xcconfig"; sourceTree = "<group>"; };
 		83D8992514F34471C5F5E64E /* Pods-AppetitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppetitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppetitTests/Pods-AppetitTests.release.xcconfig"; sourceTree = "<group>"; };
+		97EFF2851E2DA35200CA2F83 /* ClearButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearButton.swift; sourceTree = "<group>"; };
+		97EFF2871E2DA38B00CA2F83 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		97EFF2891E2DA3BC00CA2F83 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		97EFF28B1E2DA66100CA2F83 /* TintButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TintButton.swift; sourceTree = "<group>"; };
+		97EFF28D1E2DB2DE00CA2F83 /* TextDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextDescriptionView.swift; sourceTree = "<group>"; };
+		97EFF2901E2DB5BB00CA2F83 /* ModalTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalTransition.swift; sourceTree = "<group>"; };
+		97EFF2951E2DC11E00CA2F83 /* ListOrders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOrders.swift; sourceTree = "<group>"; };
+		97EFF2971E2DC38600CA2F83 /* ListOrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOrdersViewController.swift; sourceTree = "<group>"; };
+		97EFF2991E2DC48E00CA2F83 /* AppCoordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinate.swift; sourceTree = "<group>"; };
+		97EFF29C1E2DCD0C00CA2F83 /* UIImage+WithColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+WithColor.swift"; sourceTree = "<group>"; };
+		97EFF29F1E2DCD6B00CA2F83 /*  NSAttributedString+FontColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " NSAttributedString+FontColor.swift"; sourceTree = "<group>"; };
+		97EFF2A11E2F0B7200CA2F83 /* ListOrderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOrderViewModel.swift; sourceTree = "<group>"; };
 		B9D98D89F0C5A221CA2DC168 /* Pods_Appetit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appetit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0019181E1441BC0082CA7D /* AppetitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppetitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF00191C1E1441BC0082CA7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -118,6 +142,61 @@
 				44E01EF2B460BAA0D5DB7B73 /* Pods_AppetitTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97EFF2841E2DA2FF00CA2F83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF2851E2DA35200CA2F83 /* ClearButton.swift */,
+				97EFF2871E2DA38B00CA2F83 /* GradientView.swift */,
+				97EFF2891E2DA3BC00CA2F83 /* Style.swift */,
+				97EFF28B1E2DA66100CA2F83 /* TintButton.swift */,
+				97EFF28D1E2DB2DE00CA2F83 /* TextDescriptionView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		97EFF28F1E2DB59200CA2F83 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF2901E2DB5BB00CA2F83 /* ModalTransition.swift */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
+		97EFF2921E2DB8CB00CA2F83 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF2941E2DB8FB00CA2F83 /* ListOrders */,
+				97EFF2931E2DB8DF00CA2F83 /* Collections */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		97EFF2931E2DB8DF00CA2F83 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Collections;
+			sourceTree = "<group>";
+		};
+		97EFF2941E2DB8FB00CA2F83 /* ListOrders */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF2951E2DC11E00CA2F83 /* ListOrders.swift */,
+				97EFF2971E2DC38600CA2F83 /* ListOrdersViewController.swift */,
+				97EFF2A11E2F0B7200CA2F83 /* ListOrderViewModel.swift */,
+			);
+			name = ListOrders;
+			sourceTree = "<group>";
+		};
+		97EFF29B1E2DCCFD00CA2F83 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF29C1E2DCD0C00CA2F83 /* UIImage+WithColor.swift */,
+				97EFF29F1E2DCD6B00CA2F83 /*  NSAttributedString+FontColor.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		EF0019191E1441BC0082CA7D /* AppetitTests */ = {
@@ -252,6 +331,9 @@
 		EF2CA84F1E142FC600D87C60 /* Appetit */ = {
 			isa = PBXGroup;
 			children = (
+				97EFF29B1E2DCCFD00CA2F83 /* Extensions */,
+				97EFF2921E2DB8CB00CA2F83 /* Screens */,
+				97EFF28F1E2DB59200CA2F83 /* Transitions */,
 				EF6D24971E15AE7E00BFDB86 /* Apperance */,
 				EF0019251E1446D10082CA7D /* AppDelegate */,
 				EF0019291E144B270082CA7D /* Cells */,
@@ -260,7 +342,9 @@
 				EF0019221E1445B00082CA7D /* Models */,
 				EF0019261E1446D80082CA7D /* Networking */,
 				EF1359301E15863600DC6B66 /* Resources */,
+				97EFF2841E2DA2FF00CA2F83 /* View */,
 				EF1359311E15864200DC6B66 /* Storyboards */,
+				97EFF2991E2DC48E00CA2F83 /* AppCoordinate.swift */,
 			);
 			path = Appetit;
 			sourceTree = "<group>";
@@ -519,17 +603,29 @@
 			files = (
 				EF13592F1E153AC400DC6B66 /* ItemViewController.swift in Sources */,
 				EF1359331E15869800DC6B66 /* Storyboard.swift in Sources */,
+				97EFF2961E2DC11E00CA2F83 /* ListOrders.swift in Sources */,
+				97EFF2A21E2F0B7200CA2F83 /* ListOrderViewModel.swift in Sources */,
+				97EFF2881E2DA38B00CA2F83 /* GradientView.swift in Sources */,
 				EF0019321E144E3F0082CA7D /* ItemCollectionDataSource.swift in Sources */,
+				97EFF29D1E2DCD0C00CA2F83 /* UIImage+WithColor.swift in Sources */,
 				EF0019301E144C660082CA7D /* ItemsCollectionViewDataSource.swift in Sources */,
 				EF1359271E145A6800DC6B66 /* AppetitAPIManager.swift in Sources */,
 				EF0019281E14470E0082CA7D /* AppetitAPI.swift in Sources */,
+				97EFF28A1E2DA3BC00CA2F83 /* Style.swift in Sources */,
+				97EFF28C1E2DA66100CA2F83 /* TintButton.swift in Sources */,
 				EF00192B1E144B3E0082CA7D /* ItemCollectionCell.swift in Sources */,
 				EF13592D1E1535D700DC6B66 /* MockLoader.swift in Sources */,
+				97EFF2911E2DB5BB00CA2F83 /* ModalTransition.swift in Sources */,
+				97EFF29A1E2DC48E00CA2F83 /* AppCoordinate.swift in Sources */,
+				97EFF2A01E2DCD6B00CA2F83 /*  NSAttributedString+FontColor.swift in Sources */,
 				EF1359251E1451DB00DC6B66 /* ItemsViewController.swift in Sources */,
 				EF6D249B1E15AF2200BFDB86 /* ColorPalette.swift in Sources */,
 				EF0019241E1445F00082CA7D /* Item.swift in Sources */,
 				EF2CA8511E142FC600D87C60 /* AppDelegate.swift in Sources */,
 				EF6D24991E15AEA400BFDB86 /* ApperanceHelper.swift in Sources */,
+				97EFF2981E2DC38600CA2F83 /* ListOrdersViewController.swift in Sources */,
+				97EFF28E1E2DB2DE00CA2F83 /* TextDescriptionView.swift in Sources */,
+				97EFF2861E2DA35200CA2F83 /* ClearButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

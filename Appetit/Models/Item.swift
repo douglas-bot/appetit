@@ -9,21 +9,21 @@
 import Foundation
 import ObjectMapper
 
-struct Item {
-    var id: Int = 0
-    var name: String = ""
-    var price: String = ""
-    var isAdd: Bool = false
-    var image: String = ""
+public struct Item {
+    public var id: Int = 0
+    public var name: String = ""
+    public var price: String = ""
+    public var isAdd: Bool = false
+    public var image: String = ""
     //var description: String = ""
 }
 
 extension Item: Mappable {
-    init?(map: Map) {
+    public init?(map: Map) {
         
     }
     
-    mutating func mapping(map: Map) {
+    mutating public func mapping(map: Map) {
         id <- map["id"]
         name <- map["name"]
         isAdd <- map["isAdd"]
@@ -32,3 +32,5 @@ extension Item: Mappable {
         //description <- map["description"]
     }
 }
+
+
